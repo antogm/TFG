@@ -1,0 +1,8 @@
+# Local databases and data dumps. Versioned schema files live in schema/.
+*.sqlite*
+*.db
+*.db-*
+*.dump
+*.sql
+!schema/
+!schema/*.sql
